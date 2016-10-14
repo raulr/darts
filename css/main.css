@@ -21,7 +21,7 @@ body::before {
     height: 100%;
     position: absolute;
     z-index: -1;
-    background-image: url('/img/wood.jpg');
+    background-image: url('../img/wood.jpg');
     background-repeat: repeat-x repeat-y;
     overflow: hidden;
     filter: blur(1px) saturate(60%) brightness(90%);
@@ -75,11 +75,11 @@ body::before {
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?y5fi61');
-  src:  url('/fonts/icomoon.eot?y5fi61#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?y5fi61') format('truetype'),
-    url('/fonts/icomoon.woff?y5fi61') format('woff'),
-    url('/fonts/icomoon.svg?y5fi61#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?y5fi61');
+  src:  url('../fonts/icomoon.eot?y5fi61#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?y5fi61') format('truetype'),
+    url('../fonts/icomoon.woff?y5fi61') format('woff'),
+    url('../fonts/icomoon.svg?y5fi61#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
